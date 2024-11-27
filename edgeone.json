@@ -3,7 +3,7 @@
     {
       "source": "/ablout",
       "destination": "/about-team.html",
-      "statusCode": 200
+      "statusCode": 301
     }
   ],
   "headers": [
