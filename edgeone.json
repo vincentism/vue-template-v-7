@@ -33,5 +33,23 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/rewrites",
+      "destination": "/_next/static/chunks/main-app-323866b547fb5d8.js"
+    },
+    {
+      "source": "/rewrites-1/(.*)",
+      "destination": "/_next/static/chunks/main-app-$1.js"
+    },
+    {
+      "source": "/rewrites-2/:id",
+      "destination": "/_next/static/chunks/main-app-:id.js"
+    },
+    {
+      "source": "/rewrites-3/(.*)/hello/:id",
+      "destination": "/_next/static/chunks/$1-:id.js"
+    }
   ]
 }
