@@ -8,20 +8,7 @@
   ],
   "headers": [
     {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "max-age=2592000"
-        },
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex,must-revalidate"
-        }
-      ]
-    },
-    {
-      "source": "/(.*)",
+      "source": "/.*",
       "headers": [
         {
           "key": "Cache-Control",
